@@ -1,0 +1,37 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.button-border {
+    background: linear-gradient(115deg, #eaf234, #fb74b9, #ebc43a, #ce499c, #6a0da6);
+    padding: 2px;
+    border-radius: 20px;
+}
+
+.button {
+    border: none;
+    border-radius: 20px;
+    background: black;
+    color: white;
+    padding: 1em 1.5em;
+    font-family: cursive;
+    letter-spacing: .1em;
+}
+
+.button-border:hover {
+    background: linear-gradient(115deg, #ff4470, #31d771, #a3fc6f, #c22020, #fffc56);
+    padding: 2px;
+}
+
+.button-border:hover .button {
+    background: rgb(2, 39, 64);
+    padding: 1.2em 1.6em;
+}

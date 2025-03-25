@@ -1,0 +1,39 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1:after {
+    content: "";
+    animation: 6s swap infinite;
+    background: #2f00ff;
+    padding: 10px;
+    color: white;
+    border-radius: 4px;
+    margin-left: 4px;
+}
+
+@keyframes swap {
+    0% {
+        content: "Suyog";
+    }
+    25% {
+        content: "Pokhrel";
+    }
+    50% {
+        content: "A.I.";
+    }
+    75% {
+        content: "Enthusiast";
+    }
+    100% {
+        content: "Suyog";
+    }
+}
